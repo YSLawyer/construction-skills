@@ -1,0 +1,66 @@
+{
+  "skill": "jianshe-shenpan-ZhouLiming-trial",
+  "version": "0.1.0",
+  "source_book": "《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "客户的建设工程分包案马上要开庭前会议，法官要求交换证据、归纳争议焦点。我该怎么准备证据清单和无争议事实、怎么抢先把争议焦点缩窄？",
+      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-trial",
+      "notes": "庭前会议准备、争议焦点归纳，典型触发场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "法官当庭释明我方主张的合同效力与他认定不一致，说合同无效，要求我变更诉讼请求和请求权基础。我该不该变、不变会怎样？",
+      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-trial",
+      "notes": "法官释明应对，核心触发场景，对应案例20-4/20-5"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "案子涉及工程量争议要现场勘验了，我需要带什么、怎么利用勘验把对我方有利的事实固定下来？",
+      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-trial",
+      "notes": "现场勘验准备，对应第二十一章"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "对方代理人在法庭辩论阶段突然抛出一份新证据，还推翻之前已经确认过的无争议事实，我要怎么当庭反制、要求法官按规则处理？",
+      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-trial",
+      "notes": "庭审二次架构/证据突袭反制，对应第二十二、二十三章"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "客户拿了一份建设工程施工合同，让我先审查合同效力、主体是否适格、有没有黑白合同和标前合同备案合同的问题。",
+      "expected_behavior": "不应激活本技能，应激活 jianshe-shenpan-ZhouLiming-static-review",
+      "notes": "跨技能混淆诱饵：合同效力/主体/黑白合同的实体静态审查"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "法官问我要不要申请工程造价司法鉴定，鉴定范围和鉴定依据怎么定、鉴定意见出来后怎么组织质证意见？",
+      "expected_behavior": "不应激活本技能，应激活 jianshe-shenpan-ZhouLiming-identification",
+      "notes": "跨技能混淆诱饵：司法鉴定的启动范围与意见质证，超出程序节点"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "怎么梳理这个建设工程案子的已完工程造价、已付工程款、应扣款和结算款这几项账目，判断到底还欠多少工程款？",
+      "expected_behavior": "不应激活本技能，应激活 jianshe-shenpan-ZhouLiming-dynamic-review",
+      "notes": "跨技能混淆诱饵：履行/应付/已付/结算的账目计算属动态审查"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "庭前会议上对方当庭提出管辖权异议，说合同里有仲裁条款、法院没有主管权，法官让我回应。我该怎么处理？",
+      "expected_behavior": "合理判断：若问题聚焦在庭前会议程序性事项、主管管辖的庭前审查与应对，应激活 jianshe-shenpan-ZhouLiming-trial；若深入仲裁条款效力判断或仲裁程序本身，则转 jianshe-shenpan-ZhouLiming-arbitration",
+      "notes": "边界模糊场景：主管管辖的庭前应对属本技能，仲裁条款效力/仲裁程序细节属 arbitration"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "4 should_trigger + 3 should_not_trigger（含 3 个跨技能诱饵，分别指向 static-review/identification/dynamic-review）+ 1 edge_case。"
+}

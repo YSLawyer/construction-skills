@@ -1,0 +1,23 @@
+# 操作系统 / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 日志 / 临时
+*.log
+*.tmp
+*.bak
+
+# 不忽略技能文件（skills/ 下全部保留）
+!skills/**/*.md
+!skills/**/*.json

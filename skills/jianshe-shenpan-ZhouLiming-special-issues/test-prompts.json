@@ -1,0 +1,52 @@
+{
+  "skill": "jianshe-shenpan-ZhouLiming-special-issues",
+  "version": "0.1.0",
+  "source_book": "《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们是施工总承包方，发包人欠付工程款，我想在起诉状里主张建设工程价款优先受偿权，但不确定能主张的主体范围、金额范围（利润和利息算不算）以及18个月期限从哪天起算，怎么主张最稳妥？",
+      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-special-issues",
+      "notes": "优先受偿权主张：主体/范围/期限三关，属第35章核心"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我是包清工钢筋班组的包工头，跟总包没有书面合同，总包现在资不抵债跑路了，发包人还欠着总包大笔工程款。我能不能突破合同相对性直接把发包人和总包一起告了？发包人只在欠付范围内担责是什么意思？",
+      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-special-issues",
+      "notes": "实际施工人突破合同相对性，属第36章核心"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "客户签了一个 EPC 工程总承包合同，总包方把主体施工分包出去、对方又再分包给实际施工人，现在实际施工人告我们建设单位。EPC 模式下清单漏项风险谁担？再分包是不是违法无效？合同相对人怎么认定？",
+      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-special-issues",
+      "notes": "工程总承包责任结构与再分包效力，属第37章核心"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "这个建设工程施工合同里，发包人没有招标、承包人资质也不够，我想判断这份合同到底是有效还是无效，以及它的合同性质是不是建设工程施工合同，从哪几步审查？",
+      "expected_behavior": "不应激活本技能，应激活 jianshe-shenpan-ZhouLiming-static-review",
+      "notes": "跨技能混淆诱饵：合同效力/性质审查属静态审查四步，非三类疑难问题"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "工程造价争议很大，法院可能要委托司法鉴定，我想知道怎么确定鉴定范围、鉴定中怎么跟鉴定人沟通、拿到鉴定意见书后怎么质证才能不被'以鉴代审'。",
+      "expected_behavior": "不应激活本技能，应激活 jianshe-shenpan-ZhouLiming-identification",
+      "notes": "跨技能混淆诱饵：司法鉴定程序应对，属 identification，非本技能（本技能仅管权利判断，鉴定程序本身归 identification）"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我是借用资质挂靠施工的实际施工人，发包人欠付工程款，我能不能直接对发包人主张建设工程价款优先受偿权？或者能不能代位行使总包对发包人的优先受偿权？",
+      "expected_behavior": "应激活本技能，并明确指出：实际施工人不能直接向发包人主张优先权，能否代位行使优先权存在争议（优先权具有担保物权属性、通常被认为超出可代位范畴），需结合第35章主体规则与第36章实际施工人条款综合判断",
+      "notes": "边界模糊场景：实际施工人×优先受偿权交叉，触及代位权争议这一灰色地带"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 should_trigger + 2 should_not_trigger（含≥1 跨技能诱饵）+ 1 edge_case。"
+}
