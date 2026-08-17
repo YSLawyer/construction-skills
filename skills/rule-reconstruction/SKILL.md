@@ -1,12 +1,12 @@
 ---
 
-name: jianshe-guize-chonggou
-description: "知识库（裁判规则检索索引）：邬砚《规则重构：建设工程施工合同纠纷裁判路径总梳理》（法律出版社 2024.02 第1版）。以 456 条裁判规则、12 个专题梳理建工合同纠纷的裁判路径，覆盖合同范围界定、效力判断、工期、质量、造价结算（自行/审计/拟制/裁判/参照/司法鉴定）、其他款项（进度款/垫资/保证金/利息/违约金/违法所得）、履行·转让·解除、黑白合同、优先受偿权、实际施工人、挂靠、主管与管辖。用途：查找/引用某条裁判规则、典型案例或高院指导意见以支撑法律论点；纯规则检索与口径查证用本技能。分工：组织办案动作、起草文书、庭审攻防等动作型任务请改用 jianshe-shenpan-ZhouLiming-* 系列与 jianshe-hetong-quanshu（见 related_skills）。"
+name: rule-reconstruction
+description: "知识库（裁判规则检索索引）：邬砚《规则重构：建设工程施工合同纠纷裁判路径总梳理》（法律出版社 2024.02 第1版）。以 456 条裁判规则、12 个专题梳理建工合同纠纷的裁判路径，覆盖合同范围界定、效力判断、工期、质量、造价结算（自行/审计/拟制/裁判/参照/司法鉴定）、其他款项（进度款/垫资/保证金/利息/违约金/违法所得）、履行·转让·解除、黑白合同、优先受偿权、实际施工人、挂靠、主管与管辖。用途：查找/引用某条裁判规则、典型案例或高院指导意见以支撑法律论点；纯规则检索与口径查证用本技能。分工：组织办案动作、起草文书、庭审攻防等动作型任务请改用 deconstruction-rebuilding-ZhouLiming-* 系列与 cclr-pfcc（见 related_skills）。"
 source_book: 《规则重构：建设工程施工合同纠纷裁判路径总梳理》
 source_author: 邬砚
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
 version: 1.1
-related_skills: [jianshe-hetong-quanshu, jianshe-shenpan-ZhouLiming-static-review, jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-trial, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-special-issues, jianshe-shenpan-ZhouLiming-arbitration]
+related_skills: [cclr-pfcc, deconstruction-rebuilding-ZhouLiming-static-review, deconstruction-rebuilding-ZhouLiming-dynamic-review, deconstruction-rebuilding-ZhouLiming-trial, deconstruction-rebuilding-ZhouLiming-identification, deconstruction-rebuilding-ZhouLiming-special-issues, deconstruction-rebuilding-ZhouLiming-arbitration]
 ---
 
 

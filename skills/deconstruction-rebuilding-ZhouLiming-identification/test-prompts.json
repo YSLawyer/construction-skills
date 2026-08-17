@@ -1,5 +1,5 @@
 {
-  "skill": "jianshe-shenpan-ZhouLiming-identification",
+  "skill": "deconstruction-rebuilding-ZhouLiming-identification",
   "version": "0.1.0",
   "source_book": "《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明",
   "darwin_compatible": true,
@@ -8,42 +8,42 @@
       "id": "should-trigger-01",
       "type": "should_trigger",
       "prompt": "对方发包人在答辩中申请对涉案工程做工程造价司法鉴定，我方认为双方已经签过结算协议，现在怎么办？需要阻止鉴定还是配合？",
-      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-identification",
+      "expected_behavior": "应激活 deconstruction-rebuilding-ZhouLiming-identification",
       "notes": "触发鉴定启动攻防，涉及七种不启动情形中的结算协议。"
     },
     {
       "id": "should-trigger-02",
       "type": "should_trigger",
       "prompt": "我代理承包人，造价鉴定机构出了征求意见稿，把我们的下浮率11%直接砍掉了，还漏算了几百万的签证，我该怎么写异议书、怎么质证这份鉴定意见？",
-      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-identification",
+      "expected_behavior": "应激活 deconstruction-rebuilding-ZhouLiming-identification",
       "notes": "触发鉴定意见质证与异议书写作，含隐藏下浮率规则。"
     },
     {
       "id": "should-trigger-03",
       "type": "should_trigger",
       "prompt": "发包人以工期逾期为由反诉要违约金，实际上设计变更和甲供材迟延都是他们造成的，工期怎么顺延？要不要申请工期鉴定？关键线路和共同延误怎么主张？",
-      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-identification",
+      "expected_behavior": "应激活 deconstruction-rebuilding-ZhouLiming-identification",
       "notes": "触发工期鉴定、关键线路法、顺延天数攻防。"
     },
     {
       "id": "should-not-trigger-01",
       "type": "should_not_trigger",
       "prompt": "这份签证单只有项目经理签字、没有总监签字，能不能作为已付款和工程量的证据？签证效力怎么认定？",
-      "expected_behavior": "不应激活本技能，应激活 jianshe-shenpan-ZhouLiming-dynamic-review",
+      "expected_behavior": "不应激活本技能，应激活 deconstruction-rebuilding-ZhouLiming-dynamic-review",
       "notes": "跨技能混淆诱饵：签证效力属履约动态审查，不是鉴定程序。"
     },
     {
       "id": "should-not-trigger-02",
       "type": "should_not_trigger",
       "prompt": "工程已经竣工验收，我方作为承包人起诉要工程款并主张建设工程价款优先受偿权，顺位和行使期限怎么处理？",
-      "expected_behavior": "不应激活本技能，应激活 jianshe-shenpan-ZhouLiming-special-issues",
+      "expected_behavior": "不应激活本技能，应激活 deconstruction-rebuilding-ZhouLiming-special-issues",
       "notes": "跨技能混淆诱饵：优先受偿权属特殊权利问题，非鉴定。"
     },
     {
       "id": "edge-01",
       "type": "edge_case",
       "prompt": "发包人申请工程质量鉴定，但只提供单方委托的检测报告说混凝土强度不足，我方抗辩工程已竣工验收，法官问是否同意鉴定、鉴定范围怎么定？",
-      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-identification，重点处理质量鉴定的举证责任分配（谁主张谁举证）、单方检测报告的证明力、以及锁定鉴定范围避免过度鉴定",
+      "expected_behavior": "应激活 deconstruction-rebuilding-ZhouLiming-identification，重点处理质量鉴定的举证责任分配（谁主张谁举证）、单方检测报告的证明力、以及锁定鉴定范围避免过度鉴定",
       "notes": "边界模糊场景：质量鉴定启动+单方报告效力+范围锁定交织，仍属本技能。"
     }
   ],

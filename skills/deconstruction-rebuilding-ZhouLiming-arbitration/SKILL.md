@@ -1,12 +1,12 @@
 ---
 
-name: jianshe-shenpan-ZhouLiming-arbitration
+name: deconstruction-rebuilding-ZhouLiming-arbitration
 description: |
   何时调用：律师为客户选择或设计工程合同仲裁条款、评估仲裁与诉讼利弊、在工程仲裁案中拟定仲裁请求、制定举证质证与选任仲裁员策略、评估申请撤销或不予执行仲裁裁决时。不适用：纯诉讼的庭前准备、庭审、司法鉴定应对等（归兄弟技能）。触发信号（中文）："工程仲裁""仲裁条款""一裁终局""撤裁""不予执行""异地仲裁""仲裁反请求""仲裁还是诉讼"；触发信号（英文）："construction arbitration""arbitration clause""set aside award""final and binding"。
 source_book: 《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明
 source_chapter: 第十篇 仲裁（第41-42章）
 tags: [construction-arbitration, arbitration-clause, set-aside-award, arbitrator-selection, engineering-disputes]
-related_skills: [jianshe-hetong-quanshu, jianshe-shenpan-ZhouLiming-trial, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-special-issues, jianshe-shenpan-ZhouLiming-static-review, jianshe-guize-chonggou]
+related_skills: [cclr-pfcc, deconstruction-rebuilding-ZhouLiming-trial, deconstruction-rebuilding-ZhouLiming-identification, deconstruction-rebuilding-ZhouLiming-special-issues, deconstruction-rebuilding-ZhouLiming-static-review, rule-reconstruction]
 source_author: 周利明（法官、英国皇家特许建造师 MCIOB）
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
 version: 1.1
@@ -52,9 +52,9 @@ version: 1.1
 - **语言信号（中文）**："工程仲裁""仲裁条款怎么约定""一裁终局""能不能撤裁""不予执行""异地仲裁""仲裁反请求""选哪个仲裁员""仲裁还是诉讼"。
 - **语言信号（英文）**："construction arbitration" "arbitration clause" "set aside award" "final and binding" "arbitrator selection" "arbitrate or litigate"。
 - **与相邻 skill 区分**：
-  - vs `jianshe-shenpan-ZhouLiming-trial`：trial 是诉讼程序的庭前准备与庭审驾驭（举证质证、庭审提纲），本技能只处理"仲裁"这一争议解决方式及其特有规则（条款、仲裁员、终局、撤裁）。
-  - vs `jianshe-shenpan-ZhouLiming-identification`：identification 是诉讼司法鉴定的启动、质证、防"以鉴代审"，本技能仅在"仲裁可否不做鉴定、仲裁鉴定机构约定"处交叉。
-  - vs `jianshe-shenpan-ZhouLiming-special-issues`：special-issues 是实体问题（优先受偿权、实际施工人责任、总承包），本技能是仲裁程序/主管层面（如仲裁条款阻却实际施工人）。
+  - vs `deconstruction-rebuilding-ZhouLiming-trial`：trial 是诉讼程序的庭前准备与庭审驾驭（举证质证、庭审提纲），本技能只处理"仲裁"这一争议解决方式及其特有规则（条款、仲裁员、终局、撤裁）。
+  - vs `deconstruction-rebuilding-ZhouLiming-identification`：identification 是诉讼司法鉴定的启动、质证、防"以鉴代审"，本技能仅在"仲裁可否不做鉴定、仲裁鉴定机构约定"处交叉。
+  - vs `deconstruction-rebuilding-ZhouLiming-special-issues`：special-issues 是实体问题（优先受偿权、实际施工人责任、总承包），本技能是仲裁程序/主管层面（如仲裁条款阻却实际施工人）。
 
 ---
 
@@ -72,7 +72,7 @@ version: 1.1
 ### 不要在以下情况使用
 - 案件已进入诉讼程序、无仲裁合意，只涉及庭前会议、举证质证、庭审驾驭等诉讼操作——用 `trial`。
 - 问题核心是司法鉴定的启动、质证、防止"以鉴代审"——用 `identification`。
-- 问题核心是实体法——优先受偿权、实际施工人责任、挂靠转包认定、工程总承包——用 `special-issues`，或查词条释义用 `jianshe-hetong-quanshu`。
+- 问题核心是实体法——优先受偿权、实际施工人责任、挂靠转包认定、工程总承包——用 `special-issues`，或查词条释义用 `cclr-pfcc`。
 ### 作者/时代局限（必写）
 - 本书成书于 2021 年（第二版），所引法条与司法解释基于当时有效版本（《民法典》、《建设工程司法解释(一)》2021、原《建设工程司法解释(二)》等），部分条款序号与内容可能已被后续修正调整。办理案件前须核对现行有效法条与最新司法解释/裁判观点，禁止无脑套用书中的旧序号。另注意：书中所引《仲裁法》第40、54、58条条文本身未变，但 2021 年之后《仲裁法》的修订动向及仲裁司法审查程序（含涉外仲裁）可能已有新规定，须另行核对。
 ### 易混淆的邻近方法论
@@ -82,9 +82,9 @@ version: 1.1
 ---
 
 ## 相关 skills
-- depends-on: jianshe-shenpan-ZhouLiming-trial
-- contrasts-with: jianshe-shenpan-ZhouLiming-identification
-- composes-with: jianshe-shenpan-ZhouLiming-special-issues、jianshe-hetong-quanshu
+- depends-on: deconstruction-rebuilding-ZhouLiming-trial
+- contrasts-with: deconstruction-rebuilding-ZhouLiming-identification
+- composes-with: deconstruction-rebuilding-ZhouLiming-special-issues、cclr-pfcc
 ---
 
 ## 来源与权利

@@ -1,5 +1,5 @@
 {
-  "skill": "jianshe-shenpan-ZhouLiming-arbitration",
+  "skill": "deconstruction-rebuilding-ZhouLiming-arbitration",
   "version": "0.1.0",
   "source_book": "《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明",
   "darwin_compatible": true,
@@ -8,42 +8,42 @@
       "id": "should-trigger-01",
       "type": "should_trigger",
       "prompt": "客户是承包人，签施工合同时问我：这个工程争议走诉讼还是仲裁？仲裁条款怎么写才对我们有利？一裁终局会不会有风险？",
-      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-arbitration",
+      "expected_behavior": "应激活 deconstruction-rebuilding-ZhouLiming-arbitration",
       "notes": "仲裁条款设计 + 仲裁与诉讼利弊评估，典型触发"
     },
     {
       "id": "should-trigger-02",
       "type": "should_trigger",
       "prompt": "我们代理的工程仲裁案裁决书出来了，客户觉得实体上判得不对，想申请撤销仲裁裁决，帮我看看有没有可能、走哪条路。",
-      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-arbitration",
+      "expected_behavior": "应激活 deconstruction-rebuilding-ZhouLiming-arbitration",
       "notes": "撤裁/不予执行评估，一裁终局与事后救济"
     },
     {
       "id": "should-trigger-03",
       "type": "should_trigger",
       "prompt": "这个案子在贸仲仲裁，没有第三人制度、也开不了调查令，我该怎么选仲裁员、怎么举证质证才能赢？",
-      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-arbitration",
+      "expected_behavior": "应激活 deconstruction-rebuilding-ZhouLiming-arbitration",
       "notes": "仲裁特有证据规则与仲裁员选任策略"
     },
     {
       "id": "should-not-trigger-01",
       "type": "should_not_trigger",
       "prompt": "下周工程案件要开庭了，帮我准备庭前会议和庭审提纲，梳理一下举证质证的要点。",
-      "expected_behavior": "不应激活本技能，应激活 jianshe-shenpan-ZhouLiming-trial",
+      "expected_behavior": "不应激活本技能，应激活 deconstruction-rebuilding-ZhouLiming-trial",
       "notes": "跨技能混淆诱饵：纯诉讼庭审准备"
     },
     {
       "id": "should-not-trigger-02",
       "type": "should_not_trigger",
       "prompt": "法院要启动工程造价司法鉴定，我怎么对鉴定意见质证、防止以鉴代审？",
-      "expected_behavior": "不应激活本技能，应激活 jianshe-shenpan-ZhouLiming-identification",
+      "expected_behavior": "不应激活本技能，应激活 deconstruction-rebuilding-ZhouLiming-identification",
       "notes": "跨技能混淆诱饵：诉讼司法鉴定应对"
     },
     {
       "id": "edge-01",
       "type": "edge_case",
       "prompt": "对方发包人在施工合同里约定了仲裁，我是实际施工人想起诉要工程款，仲裁条款能拦得住我吗？",
-      "expected_behavior": "应以 jianshe-shenpan-ZhouLiming-arbitration 为主（仲裁主管与条款阻却效力），并关联 jianshe-shenpan-ZhouLiming-special-issues（实际施工人实体权利）",
+      "expected_behavior": "应以 deconstruction-rebuilding-ZhouLiming-arbitration 为主（仲裁主管与条款阻却效力），并关联 deconstruction-rebuilding-ZhouLiming-special-issues（实际施工人实体权利）",
       "notes": "边界：仲裁条款效力 × 实际施工人条款能否突破仲裁合意，跨 arbitration 与 special-issues"
     }
   ],

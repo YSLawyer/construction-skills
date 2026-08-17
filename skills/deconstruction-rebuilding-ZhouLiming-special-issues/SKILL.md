@@ -1,16 +1,16 @@
 ---
 
-name: jianshe-shenpan-ZhouLiming-special-issues
+name: deconstruction-rebuilding-ZhouLiming-special-issues
 description: |
   当杨烁律师办理建设工程合同纠纷中的三类疑难问题时调用：①建设工程价款优先受偿权——如何主张/抗辩其主体、范围、期限、顺位，以及为何不能通过调解确认；②实际施工人——如何突破合同相对性主张工程款，或作为发包人/总包方如何抗辩；③工程总承包（EPC 等模式）的责任结构与再分包效力、清单漏项风险。
   不适用：合同效力与性质的静态审查、履行与造价的动态审查、司法鉴定程序应对。
   触发信号（中文）："优先受偿权""实际施工人""突破合同相对性""工程总承包""EPC""挂靠/转包/违法分包追责"。
   触发信号（英文）："construction payment priority""actual constructor""EPC/turnkey""disregard privity"。
-  分工：需引用具体裁判规则、典型案例或高院指导意见支撑论点时，配合 jianshe-guize-chonggou（邬砚《规则重构》裁判规则索引）。
+  分工：需引用具体裁判规则、典型案例或高院指导意见支撑论点时，配合 rule-reconstruction（邬砚《规则重构》裁判规则索引）。
 source_book: 《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明
 source_chapter: 第九篇 特殊、疑难案件审理思路（第35-40章）
 tags: [construction-priority, actual-constructor, EPC, privity, construction-dispute]
-related_skills: [jianshe-shenpan-ZhouLiming-static-review, jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-trial, jianshe-shenpan-ZhouLiming-arbitration, jianshe-hetong-quanshu, jianshe-guize-chonggou]
+related_skills: [deconstruction-rebuilding-ZhouLiming-static-review, deconstruction-rebuilding-ZhouLiming-dynamic-review, deconstruction-rebuilding-ZhouLiming-identification, deconstruction-rebuilding-ZhouLiming-trial, deconstruction-rebuilding-ZhouLiming-arbitration, cclr-pfcc, rule-reconstruction]
 source_author: 周利明（法官、英国皇家特许建造师 MCIOB）
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
 version: 1.1
@@ -92,9 +92,9 @@ version: 1.1
 **语言信号**（中英双写）："优先受偿权怎么主张/抗辩""实际施工人能不能直接告发包人""EPC 再分包有效吗""清单漏项谁担" / "claim priority of construction payment""does actual constructor break privity""EPC sub-subcontract validity"。
 
 **与相邻 skill 的区分**：
-- 与 `jianshe-shenpan-ZhouLiming-static-review`（静态审查四步：合同关系/内容/性质/效力）不同——本技能不处理合同效力与性质的常规认定，仅处理三类疑难问题；若用户只问「合同是否无效、性质是什么」应激活 static-review。
-- 与 `jianshe-shenpan-ZhouLiming-dynamic-review`（动态审查五步：履行/竣工/应付款/已付款/结算）不同——若用户只问「工程造价、已付款、结算怎么审」应激活 dynamic-review，而非本技能。
-- 与 `jianshe-shenpan-ZhouLiming-identification`（司法鉴定应对）不同——若用户只问「要不要鉴定、怎么质证鉴定意见」应激活 identification。
+- 与 `deconstruction-rebuilding-ZhouLiming-static-review`（静态审查四步：合同关系/内容/性质/效力）不同——本技能不处理合同效力与性质的常规认定，仅处理三类疑难问题；若用户只问「合同是否无效、性质是什么」应激活 static-review。
+- 与 `deconstruction-rebuilding-ZhouLiming-dynamic-review`（动态审查五步：履行/竣工/应付款/已付款/结算）不同——若用户只问「工程造价、已付款、结算怎么审」应激活 dynamic-review，而非本技能。
+- 与 `deconstruction-rebuilding-ZhouLiming-identification`（司法鉴定应对）不同——若用户只问「要不要鉴定、怎么质证鉴定意见」应激活 identification。
 
 ---
 
@@ -111,25 +111,25 @@ version: 1.1
 ## B — 边界 (Boundary)
 
 ### 不要在以下情况使用
-- 用户只需常规认定合同效力、合同性质、合同关系——用 `jianshe-shenpan-ZhouLiming-static-review`。
-- 用户只问工程造价、已付款、结算、竣工等动态审查——用 `jianshe-shenpan-ZhouLiming-dynamic-review`。
-- 用户只问司法鉴定的启动、质证、与鉴定人沟通——用 `jianshe-shenpan-ZhouLiming-identification`。
-- 纯仲裁程序问题（仲裁协议效力、仲裁请求设计）——用 `jianshe-shenpan-ZhouLiming-arbitration`。
+- 用户只需常规认定合同效力、合同性质、合同关系——用 `deconstruction-rebuilding-ZhouLiming-static-review`。
+- 用户只问工程造价、已付款、结算、竣工等动态审查——用 `deconstruction-rebuilding-ZhouLiming-dynamic-review`。
+- 用户只问司法鉴定的启动、质证、与鉴定人沟通——用 `deconstruction-rebuilding-ZhouLiming-identification`。
+- 纯仲裁程序问题（仲裁协议效力、仲裁请求设计）——用 `deconstruction-rebuilding-ZhouLiming-arbitration`。
 
 ### 作者/时代局限（必写）
 - 本书成书于 2021 年（第二版），所引法条与司法解释基于当时有效版本（《民法典》、《建设工程司法解释(一)》2021、原《建设工程司法解释(二)》、已废止的法释[2002]16号批复等）。优先权期限、主体、范围等规则应以现行《最高人民法院关于审理建设工程施工合同纠纷案件适用法律问题的解释（一）》（2021）及最新裁判观点为准；「18 个月」等数字、原批复「6 个月」等旧规不得无脑套用，办理案件前须核对现行有效法条与最新司法解释。
 
 ### 易混淆的邻近方法论
-- 与 `jianshe-shenpan-ZhouLiming-dynamic-review`：动态审查处理「应付款（造价）」，而优先权「范围=工程造价」仅是造价确定后的权利范围判断，二者易混，本技能聚焦权利本身而非造价计算。
-- 与 `jianshe-shenpan-ZhouLiming-identification`：实际施工人/优先权案件中常需造价、质量鉴定，但本技能负责「是否构成实际施工人、是否享有优先权」的法律判断，鉴定程序本身归 identification。
-- 与 `jianshe-hetong-quanshu`：词条全书提供「黑白合同、合同效力」等词条释义，本技能提供三类疑难问题的审理/代理思路，可组合查询。
+- 与 `deconstruction-rebuilding-ZhouLiming-dynamic-review`：动态审查处理「应付款（造价）」，而优先权「范围=工程造价」仅是造价确定后的权利范围判断，二者易混，本技能聚焦权利本身而非造价计算。
+- 与 `deconstruction-rebuilding-ZhouLiming-identification`：实际施工人/优先权案件中常需造价、质量鉴定，但本技能负责「是否构成实际施工人、是否享有优先权」的法律判断，鉴定程序本身归 identification。
+- 与 `cclr-pfcc`：词条全书提供「黑白合同、合同效力」等词条释义，本技能提供三类疑难问题的审理/代理思路，可组合查询。
 
 ---
 
 ## 相关 skills
-- depends-on: jianshe-shenpan-ZhouLiming-static-review
-- contrasts-with: jianshe-shenpan-ZhouLiming-dynamic-review、jianshe-shenpan-ZhouLiming-identification
-- composes-with: jianshe-shenpan-ZhouLiming-trial、jianshe-shenpan-ZhouLiming-arbitration、jianshe-hetong-quanshu
+- depends-on: deconstruction-rebuilding-ZhouLiming-static-review
+- contrasts-with: deconstruction-rebuilding-ZhouLiming-dynamic-review、deconstruction-rebuilding-ZhouLiming-identification
+- composes-with: deconstruction-rebuilding-ZhouLiming-trial、deconstruction-rebuilding-ZhouLiming-arbitration、cclr-pfcc
 ---
 
 ## 来源与权利

@@ -1,13 +1,13 @@
 ---
 
-name: jianshe-shenpan-ZhouLiming-trial
+name: deconstruction-rebuilding-ZhouLiming-trial
 description: |
   当杨烁律师需应对建设工程合同纠纷的庭前准备（诉讼材料初步审查、主管与管辖、送达、保全、合议庭）与审理程序（庭前会议、调查取证、法官释明、现场勘验、开庭审理、庭审二次架构/争议焦点归纳）时调用。核心是把法官从收案到庭审的程序驾驭镜像为律师动作：预审诉请与请求权基础、借庭前会议固定无争议事实、识别并响应法官释明、主动利用现场勘验与争议焦点辩论实现己方目标。不适用：合同效力/主体/黑白合同的静态审查（转 static-review）、履行竣工应付已付结算的动态审查（转 dynamic-review）、司法鉴定的启动与质证（转 identification）。触发信号（中）："庭前会议怎么准备""法官释明怎么应对""现场勘验带什么""争议焦点怎么归纳""保全怎么申请或应对"。触发信号（英）："pre-trial conference""judicial clarification""on-site inspection""dispute focus summary"。
-  分工：需引用具体裁判规则、典型案例或高院指导意见支撑论点时，配合 jianshe-guize-chonggou（邬砚《规则重构》裁判规则索引）。
+  分工：需引用具体裁判规则、典型案例或高院指导意见支撑论点时，配合 rule-reconstruction（邬砚《规则重构》裁判规则索引）。
 source_book: 《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明
 source_chapter: 第二篇 庭前准备（第4-8章）+ 第五篇 审理程序（第18-23章）
 tags: [trial-procedure, pre-trial, judicial-clarification, on-site-inspection, construction-dispute]
-related_skills: [jianshe-shenpan-ZhouLiming-static-review, jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-arbitration, jianshe-hetong-quanshu, jianshe-guize-chonggou]
+related_skills: [deconstruction-rebuilding-ZhouLiming-static-review, deconstruction-rebuilding-ZhouLiming-dynamic-review, deconstruction-rebuilding-ZhouLiming-identification, deconstruction-rebuilding-ZhouLiming-arbitration, cclr-pfcc, rule-reconstruction]
 source_author: 周利明（法官、英国皇家特许建造师 MCIOB）
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
 version: 1.1
@@ -80,9 +80,9 @@ version: 1.1
 - "保全怎么申请，会不会被对方反诉保全反制" / "How to handle preservation and counter-preservation"
 
 **与相邻 skill 的区分**：
-- 与 `jianshe-shenpan-ZhouLiming-static-review`：静态审查审"合同关系/内容/性质/效力"的实体判断；本技能是"程序驾驭与庭审应对"。问"合同有没有效、是不是黑白合同"→ static-review；问"庭前会议/释明/争议焦点怎么应对"→ 本技能。
-- 与 `jianshe-shenpan-ZhouLiming-dynamic-review`：动态审查拆"履行/竣工/应付/已付/结算"九大账目；本技能是围绕这些账目"如何在程序里组织举证质证"。问"怎么算应付工程款、已付款"→ dynamic-review；问"质证时这些账目怎么简化、怎么固定无争议事实"→ 本技能。
-- 与 `jianshe-shenpan-ZhouLiming-identification`：司法鉴定技能专管"是否鉴定、鉴定范围依据、鉴定意见质证"；本技能只在"庭前会议/庭审中是否启动鉴定"这个节点衔接，深入鉴定细节转 identification。
+- 与 `deconstruction-rebuilding-ZhouLiming-static-review`：静态审查审"合同关系/内容/性质/效力"的实体判断；本技能是"程序驾驭与庭审应对"。问"合同有没有效、是不是黑白合同"→ static-review；问"庭前会议/释明/争议焦点怎么应对"→ 本技能。
+- 与 `deconstruction-rebuilding-ZhouLiming-dynamic-review`：动态审查拆"履行/竣工/应付/已付/结算"九大账目；本技能是围绕这些账目"如何在程序里组织举证质证"。问"怎么算应付工程款、已付款"→ dynamic-review；问"质证时这些账目怎么简化、怎么固定无争议事实"→ 本技能。
+- 与 `deconstruction-rebuilding-ZhouLiming-identification`：司法鉴定技能专管"是否鉴定、鉴定范围依据、鉴定意见质证"；本技能只在"庭前会议/庭审中是否启动鉴定"这个节点衔接，深入鉴定细节转 identification。
 
 ---
 
@@ -115,9 +115,9 @@ version: 1.1
 ---
 
 ## 相关 skills
-- depends-on: jianshe-shenpan-ZhouLiming-static-review、jianshe-shenpan-ZhouLiming-dynamic-review
-- contrasts-with: jianshe-shenpan-ZhouLiming-identification、jianshe-shenpan-ZhouLiming-arbitration
-- composes-with: jianshe-shenpan-ZhouLiming-special-issues、jianshe-hetong-quanshu
+- depends-on: deconstruction-rebuilding-ZhouLiming-static-review、deconstruction-rebuilding-ZhouLiming-dynamic-review
+- contrasts-with: deconstruction-rebuilding-ZhouLiming-identification、deconstruction-rebuilding-ZhouLiming-arbitration
+- composes-with: deconstruction-rebuilding-ZhouLiming-special-issues、cclr-pfcc
 ---
 
 ## 来源与权利

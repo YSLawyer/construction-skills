@@ -1,5 +1,5 @@
 {
-  "skill": "jianshe-shenpan-ZhouLiming-static-review",
+  "skill": "deconstruction-rebuilding-ZhouLiming-static-review",
   "version": "0.1.0",
   "source_book": "《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明",
   "darwin_compatible": true,
@@ -8,35 +8,35 @@
       "id": "should-trigger-01",
       "type": "should_trigger",
       "prompt": "杨律师，客户手里有份《中央空调供货安装合同》，酒店拖着92万不给。对方说这就是个买卖合同，不存在专属管辖。我想确认这合同到底算不算建设工程施工合同，能不能按工程款主张、有没有无资质导致无效的问题。",
-      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-static-review",
+      "expected_behavior": "应激活 deconstruction-rebuilding-ZhouLiming-static-review",
       "notes": "合同性质定性（名为供货安装实为建设工程施工合同）+ 效力判断，正是静态审查第三、四步。"
     },
     {
       "id": "should-trigger-02",
       "type": "should_trigger",
       "prompt": "客户起诉要工程款，被告抗辩说双方根本不存在合同关系，合同是案外人假冒被告名义签的，没盖公章。但客户手里有签证单、有被告付过77万的银行记录。我该怎么证明合同关系成立、合同相对人是谁？",
-      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-static-review",
+      "expected_behavior": "应激活 deconstruction-rebuilding-ZhouLiming-static-review",
       "notes": "合同关系存在与否的判断与举证责任转移，对应第九章（案例9-1情形）。"
     },
     {
       "id": "should-trigger-03",
       "type": "should_trigger",
       "prompt": "一个总包把工程整体转给别人，中间还有借用资质、主体结构也分包出去了，好几份阴阳合同。我方想主张总包合同或分包合同无效，该从哪几个法定无效情形入手、无效后工程款按什么标准结算？",
-      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-static-review",
+      "expected_behavior": "应激活 deconstruction-rebuilding-ZhouLiming-static-review",
       "notes": "合同效力十一种无效类型 + 无效后参照合同折价补偿的法律效果，对应第十二章。"
     },
     {
       "id": "should-not-trigger-01",
       "type": "should_not_trigger",
       "prompt": "合同是有效的，双方对已完工程量、签证单真假、停工窝工损失和工期顺延存在争议，客户问这些履行过程中形成的签证和付款记录怎么组织、怎么证明工期顺延。",
-      "expected_behavior": "不应激活本技能，应激活 jianshe-shenpan-ZhouLiming-dynamic-review",
+      "expected_behavior": "不应激活本技能，应激活 deconstruction-rebuilding-ZhouLiming-dynamic-review",
       "notes": "跨技能混淆诱饵：争议指向合同履行过程而非合同本身四要素，属动态审查。"
     },
     {
       "id": "should-not-trigger-02",
       "type": "should_not_trigger",
       "prompt": "案子马上要开庭了，客户问庭前会议怎么开、庭审怎么发问、举证质证怎么排、法官可能会就合同效力释明时我方当场怎么应对。",
-      "expected_behavior": "不应激活本技能，应激活 jianshe-shenpan-ZhouLiming-trial",
+      "expected_behavior": "不应激活本技能，应激活 deconstruction-rebuilding-ZhouLiming-trial",
       "notes": "跨技能混淆诱饵：庭前与庭审操作、释明应对属 trial，本技能只管合同四要素判断。"
     },
     {

@@ -34,14 +34,14 @@
 
 | 技能 slug | 来源 | 覆盖 |
 |---|---|---|
-| `jianshe-hetong-quanshu` | 词条全书 | 6 章约 290 词条全量索引：相关主体 / 合同效力 / 工程价款 / 优先受偿权 / 工期索赔违约 / 工程质量保修 |
-| `jianshe-guize-chonggou` | 规则重构（邬砚） | 12 专题 456 条裁判规则全量索引：范围界定 / 效力 / 工期 / 质量 / 造价结算 / 其他款项 / 履行解除 / 黑白合同 / 优先受偿权 / 实际施工人 / 挂靠 / 管辖 |
-| `jianshe-shenpan-ZhouLiming-static-review` | 解构与重塑 | 合同静态审查四步：关系→内容→性质→效力（第9–12章） |
-| `jianshe-shenpan-ZhouLiming-dynamic-review` | 解构与重塑 | 合同动态审查五步：履行→竣工→应付→已付→结算（第13–17章） |
-| `jianshe-shenpan-ZhouLiming-trial` | 解构与重塑 | 庭前准备与庭审应对：管辖/保全/庭前会议/释明/现场勘验/二次架构（第4–8、18–23章） |
-| `jianshe-shenpan-ZhouLiming-identification` | 解构与重塑 | 造价/质量/工期司法鉴定攻防（第28–34章） |
-| `jianshe-shenpan-ZhouLiming-special-issues` | 解构与重塑 | 优先受偿权·实际施工人·工程总承包（第35–40章） |
-| `jianshe-shenpan-ZhouLiming-arbitration` | 解构与重塑 | 工程案件仲裁策略（第41–42章） |
+| `cclr-pfcc` | 词条全书 | 6 章约 290 词条全量索引：相关主体 / 合同效力 / 工程价款 / 优先受偿权 / 工期索赔违约 / 工程质量保修 |
+| `rule-reconstruction` | 规则重构（邬砚） | 12 专题 456 条裁判规则全量索引：范围界定 / 效力 / 工期 / 质量 / 造价结算 / 其他款项 / 履行解除 / 黑白合同 / 优先受偿权 / 实际施工人 / 挂靠 / 管辖 |
+| `deconstruction-rebuilding-ZhouLiming-static-review` | 解构与重塑 | 合同静态审查四步：关系→内容→性质→效力（第9–12章） |
+| `deconstruction-rebuilding-ZhouLiming-dynamic-review` | 解构与重塑 | 合同动态审查五步：履行→竣工→应付→已付→结算（第13–17章） |
+| `deconstruction-rebuilding-ZhouLiming-trial` | 解构与重塑 | 庭前准备与庭审应对：管辖/保全/庭前会议/释明/现场勘验/二次架构（第4–8、18–23章） |
+| `deconstruction-rebuilding-ZhouLiming-identification` | 解构与重塑 | 造价/质量/工期司法鉴定攻防（第28–34章） |
+| `deconstruction-rebuilding-ZhouLiming-special-issues` | 解构与重塑 | 优先受偿权·实际施工人·工程总承包（第35–40章） |
+| `deconstruction-rebuilding-ZhouLiming-arbitration` | 解构与重塑 | 工程案件仲裁策略（第41–42章） |
 
 ---
 
@@ -63,8 +63,8 @@ cp -r skills/* "$HOME/.workbuddy/skills/"
 
 ## 🧭 使用说明
 
-- **查词条释义 / 裁判规则** → 用 `jianshe-hetong-quanshu`（词条全书）或 `jianshe-guize-chonggou`（邬砚《规则重构》456 条裁判规则索引）。
-- **查"法官会怎么审 / 律师怎么应对"** → 用 6 个 `jianshe-shenpan-ZhouLiming-*` 技能。
+- **查词条释义 / 裁判规则** → 用 `cclr-pfcc`（词条全书）或 `rule-reconstruction`（邬砚《规则重构》456 条裁判规则索引）。
+- **查"法官会怎么审 / 律师怎么应对"** → 用 6 个 `deconstruction-rebuilding-ZhouLiming-*` 技能。
 - 两批技能已互相 `related_skills` 关联，可组合使用。
 - 每个技能均含 `## 来源与权利` 段，标注来源书籍、原作者与许可限制。
 

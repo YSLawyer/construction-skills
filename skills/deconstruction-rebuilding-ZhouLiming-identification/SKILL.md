@@ -1,12 +1,12 @@
 ---
 
-name: jianshe-shenpan-ZhouLiming-identification
+name: deconstruction-rebuilding-ZhouLiming-identification
 description: |
   当杨烁律师办理建设工程合同纠纷，遇到工程造价、工程质量或工期的司法鉴定攻防时调用：判断是否启动或阻止鉴定（防止"以鉴代审"）、锁定鉴定范围与事项、组织对鉴定意见与征求意见稿的质证、应对工期延误鉴定（关键线路/顺延天数）与修复方案造价。不适用：合同条款静态审查、履约动态审查（签证/付款）、庭前庭审程序、优先受偿权/实际施工人本身问题。触发信号（中文）："造价鉴定""质量鉴定""工期鉴定""鉴定意见质证""以鉴代审""修复方案造价""工期顺延""停窝工损失""专家辅助人"。触发信号（英文）："forensic appraisal""quality appraisal""delay analysis""critical path""extension of time"。
 source_book: 《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明
 source_chapter: 第七篇 司法鉴定（第28-29章）+ 第八篇 工程质量、工期审理路径（第30-34章）
 tags: [construction-appraisal, forensic-appraisal, construction-defect, construction-delay, expert-witness]
-related_skills: [jianshe-hetong-quanshu, jianshe-shenpan-ZhouLiming-static-review, jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-trial, jianshe-shenpan-ZhouLiming-special-issues, jianshe-shenpan-ZhouLiming-arbitration, jianshe-guize-chonggou]
+related_skills: [cclr-pfcc, deconstruction-rebuilding-ZhouLiming-static-review, deconstruction-rebuilding-ZhouLiming-dynamic-review, deconstruction-rebuilding-ZhouLiming-trial, deconstruction-rebuilding-ZhouLiming-special-issues, deconstruction-rebuilding-ZhouLiming-arbitration, rule-reconstruction]
 source_author: 周利明（法官、英国皇家特许建造师 MCIOB）
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
 version: 1.1
@@ -72,9 +72,9 @@ version: 1.1
 - 语言信号（中）："要不要鉴定""鉴定范围怎么定""鉴定意见怎么质证""异议书怎么写""工期能顺延几天""修复费用谁承担"。（英）："do we need an appraisal""challenge the expert report""extension of time""delay analysis""repair cost appraisal"。
 
 **与相邻 skill 的区分**
-- `jianshe-shenpan-ZhouLiming-dynamic-review`：管履约事实（签证是否有效、付款是否构成默示条款、竣工验收）；本技能只管"鉴定程序"（是否鉴、怎么鉴、怎么质证）。
-- `jianshe-shenpan-ZhouLiming-trial`：管庭前会议与庭审通用程序（举证质证、鉴定人出庭的流程安排）；本技能专攻鉴定事项的确定与鉴定意见的专业质证。
-- `jianshe-shenpan-ZhouLiming-special-issues`：管优先受偿权顺位、实际施工人、工程总承包等特殊主体/权利问题；本技能不处理这些实体问题本身。
+- `deconstruction-rebuilding-ZhouLiming-dynamic-review`：管履约事实（签证是否有效、付款是否构成默示条款、竣工验收）；本技能只管"鉴定程序"（是否鉴、怎么鉴、怎么质证）。
+- `deconstruction-rebuilding-ZhouLiming-trial`：管庭前会议与庭审通用程序（举证质证、鉴定人出庭的流程安排）；本技能专攻鉴定事项的确定与鉴定意见的专业质证。
+- `deconstruction-rebuilding-ZhouLiming-special-issues`：管优先受偿权顺位、实际施工人、工程总承包等特殊主体/权利问题；本技能不处理这些实体问题本身。
 
 ---
 
@@ -105,9 +105,9 @@ version: 1.1
 ---
 
 ## 相关 skills
-- depends-on: jianshe-shenpan-ZhouLiming-static-review
-- contrasts-with: jianshe-shenpan-ZhouLiming-dynamic-review、jianshe-shenpan-ZhouLiming-trial
-- composes-with: jianshe-shenpan-ZhouLiming-trial、jianshe-hetong-quanshu
+- depends-on: deconstruction-rebuilding-ZhouLiming-static-review
+- contrasts-with: deconstruction-rebuilding-ZhouLiming-dynamic-review、deconstruction-rebuilding-ZhouLiming-trial
+- composes-with: deconstruction-rebuilding-ZhouLiming-trial、cclr-pfcc
 ---
 
 ## 来源与权利

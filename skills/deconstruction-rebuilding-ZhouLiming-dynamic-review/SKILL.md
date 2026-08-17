@@ -1,22 +1,22 @@
 ---
 
-name: jianshe-shenpan-ZhouLiming-dynamic-review
+name: deconstruction-rebuilding-ZhouLiming-dynamic-review
 description: |
   代理建设工程合同纠纷时，需要围绕"合同履行全过程的动态审查"组织证据链与主张时调用——即法官五步审什么（履行→竣工→应付款/工程造价→已付款及应扣款→结算款），律师就对应准备什么。
   不适用：签约阶段的合同效力/内容/性质审查（用 static-review）、庭审发问与举证质证技巧（用 trial）、造价/质量/工期司法鉴定的应对（用 identification）。
   触发信号（中文）："结算款怎么主张""竣工时间认定""发包人擅自使用""逾期答复视为认可结算""固定总价包不住怎么办""已付款抵扣""项目经理收款算不算已付"。
   触发信号（英文）："dynamic review""completion/acceptance""project cost settlement""paid and deductible""final account""deemed acceptance of settlement"。
-  分工：需引用具体裁判规则、典型案例或高院指导意见支撑论点时，配合 jianshe-guize-chonggou（邬砚《规则重构》裁判规则索引）。
+  分工：需引用具体裁判规则、典型案例或高院指导意见支撑论点时，配合 rule-reconstruction（邬砚《规则重构》裁判规则索引）。
 source_book: 《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明
 source_chapter: 第四篇 合同动态审查（第13-17章）
 tags: [construction-dispute, contract-performance, project-cost, settlement, dynamic-review]
 related_skills:
-  - jianshe-hetong-quanshu
-  - jianshe-shenpan-ZhouLiming-static-review
-  - jianshe-guize-chonggou
-  - jianshe-shenpan-ZhouLiming-trial
-  - jianshe-shenpan-ZhouLiming-identification
-  - jianshe-shenpan-ZhouLiming-special-issues
+  - cclr-pfcc
+  - deconstruction-rebuilding-ZhouLiming-static-review
+  - rule-reconstruction
+  - deconstruction-rebuilding-ZhouLiming-trial
+  - deconstruction-rebuilding-ZhouLiming-identification
+  - deconstruction-rebuilding-ZhouLiming-special-issues
 source_author: 周利明（法官、英国皇家特许建造师 MCIOB）
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
 version: 1.1
@@ -125,9 +125,9 @@ version: 1.1
 ---
 
 ## 相关 skills
-- depends-on: jianshe-shenpan-ZhouLiming-static-review
-- contrasts-with: jianshe-shenpan-ZhouLiming-trial、jianshe-shenpan-ZhouLiming-identification
-- composes-with: jianshe-shenpan-ZhouLiming-identification、jianshe-shenpan-ZhouLiming-special-issues、jianshe-hetong-quanshu
+- depends-on: deconstruction-rebuilding-ZhouLiming-static-review
+- contrasts-with: deconstruction-rebuilding-ZhouLiming-trial、deconstruction-rebuilding-ZhouLiming-identification
+- composes-with: deconstruction-rebuilding-ZhouLiming-identification、deconstruction-rebuilding-ZhouLiming-special-issues、cclr-pfcc
 ---
 
 ## 来源与权利

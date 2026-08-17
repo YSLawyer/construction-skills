@@ -1,5 +1,5 @@
 {
-  "skill": "jianshe-shenpan-ZhouLiming-dynamic-review",
+  "skill": "deconstruction-rebuilding-ZhouLiming-dynamic-review",
   "version": "0.1.0",
   "source_book": "《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明",
   "darwin_compatible": true,
@@ -8,49 +8,49 @@
       "id": "should-trigger-01",
       "type": "should_trigger",
       "prompt": "我方承包的厂房工程，发包人没办竣工验收就急着投产使用了，现在拖着不结算。我能不能主张全部工程款？竣工时间、利息起算日怎么认定？",
-      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-dynamic-review，围绕擅自使用拟制竣工（转移占有日）、竣工时间对利息/质保金起算的影响组织主张",
+      "expected_behavior": "应激活 deconstruction-rebuilding-ZhouLiming-dynamic-review，围绕擅自使用拟制竣工（转移占有日）、竣工时间对利息/质保金起算的影响组织主张",
       "notes": "典型动态审查第14章场景：发包人擅自使用"
     },
     {
       "id": "should-trigger-02",
       "type": "should_trigger",
       "prompt": "合同约定固定总价 2300 万，发包人收到竣工结算文件后在约定期限内一直不答复。我能不能直接按送审的结算价要钱？默示条款怎么用？",
-      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-dynamic-review，运用默示条款（逾期答复视为认可结算）+ 固定总价免鉴定路径",
+      "expected_behavior": "应激活 deconstruction-rebuilding-ZhouLiming-dynamic-review，运用默示条款（逾期答复视为认可结算）+ 固定总价免鉴定路径",
       "notes": "覆盖第15章默示条款与固定总价"
     },
     {
       "id": "should-trigger-03",
       "type": "should_trigger",
       "prompt": "发包人主张把项目经理签收的 50 万现金和几笔承兑汇票从欠付工程款里扣掉，我该怎么逐项反驳这些已付款和应扣款？",
-      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-dynamic-review，按项目经理收款/承兑汇票/现金支付的举证规则逐项攻防",
+      "expected_behavior": "应激活 deconstruction-rebuilding-ZhouLiming-dynamic-review，按项目经理收款/承兑汇票/现金支付的举证规则逐项攻防",
       "notes": "覆盖第16章已付款及应扣款"
     },
     {
       "id": "should-trigger-04",
       "type": "should_trigger",
       "prompt": "双方签过一份结算协议，现在对方反悔说当时审价底稿有错、要求重新结算甚至申请造价鉴定。这份结算协议能不能推翻？",
-      "expected_behavior": "应激活 jianshe-shenpan-ZhouLiming-dynamic-review，论证结算协议不可推翻、独立于基础合同有效，抗辩其反悔",
+      "expected_behavior": "应激活 deconstruction-rebuilding-ZhouLiming-dynamic-review，论证结算协议不可推翻、独立于基础合同有效，抗辩其反悔",
       "notes": "覆盖第17章结算款"
     },
     {
       "id": "should-not-trigger-01",
       "type": "should_not_trigger",
       "prompt": "这份施工合同是典型的黑白合同，备案中标合同和补充协议对价款约定不一致，到底该以哪份作为结算依据？",
-      "expected_behavior": "不应激活本技能，应激活 jianshe-shenpan-ZhouLiming-static-review",
+      "expected_behavior": "不应激活本技能，应激活 deconstruction-rebuilding-ZhouLiming-static-review",
       "notes": "跨技能混淆诱饵：黑白合同属签约阶段静态审查（效力/内容），非动态履行审查"
     },
     {
       "id": "should-not-trigger-02",
       "type": "should_not_trigger",
       "prompt": "工程造价争议已经确定要进入司法鉴定了，我应该怎么申请鉴定、怎么在质证环节制约鉴定人、应对不利的鉴定意见？",
-      "expected_behavior": "不应激活本技能，应激活 jianshe-shenpan-ZhouLiming-identification",
+      "expected_behavior": "不应激活本技能，应激活 deconstruction-rebuilding-ZhouLiming-identification",
       "notes": "跨技能混淆诱饵：本技能只管'免鉴定路径'与是否需要鉴定的判断，鉴定操作归 identification"
     },
     {
       "id": "should-not-trigger-03",
       "type": "should_not_trigger",
       "prompt": "开庭时我想设计一套发问提纲，重点问清楚对方的付款记录和项目经理的权限，还要准备质证意见，有没有发问技巧？",
-      "expected_behavior": "不应激活本技能，应激活 jianshe-shenpan-ZhouLiming-trial",
+      "expected_behavior": "不应激活本技能，应激活 deconstruction-rebuilding-ZhouLiming-trial",
       "notes": "跨技能混淆诱饵：庭审发问与质证技法归 trial，动态审查给的是实体结论"
     },
     {
