@@ -3,10 +3,11 @@
 name: jianshe-shenpan-ZhouLiming-trial
 description: |
   当杨烁律师需应对建设工程合同纠纷的庭前准备（诉讼材料初步审查、主管与管辖、送达、保全、合议庭）与审理程序（庭前会议、调查取证、法官释明、现场勘验、开庭审理、庭审二次架构/争议焦点归纳）时调用。核心是把法官从收案到庭审的程序驾驭镜像为律师动作：预审诉请与请求权基础、借庭前会议固定无争议事实、识别并响应法官释明、主动利用现场勘验与争议焦点辩论实现己方目标。不适用：合同效力/主体/黑白合同的静态审查（转 static-review）、履行竣工应付已付结算的动态审查（转 dynamic-review）、司法鉴定的启动与质证（转 identification）。触发信号（中）："庭前会议怎么准备""法官释明怎么应对""现场勘验带什么""争议焦点怎么归纳""保全怎么申请或应对"。触发信号（英）："pre-trial conference""judicial clarification""on-site inspection""dispute focus summary"。
+  分工：需引用具体裁判规则、典型案例或高院指导意见支撑论点时，配合 jianshe-guize-chonggou（邬砚《规则重构》裁判规则索引）。
 source_book: 《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明
 source_chapter: 第二篇 庭前准备（第4-8章）+ 第五篇 审理程序（第18-23章）
 tags: [trial-procedure, pre-trial, judicial-clarification, on-site-inspection, construction-dispute]
-related_skills: [jianshe-shenpan-ZhouLiming-static-review, jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-arbitration, jianshe-hetong-quanshu]
+related_skills: [jianshe-shenpan-ZhouLiming-static-review, jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-arbitration, jianshe-hetong-quanshu, jianshe-guize-chonggou]
 source_author: 周利明（法官、英国皇家特许建造师 MCIOB）
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
 ---

@@ -6,7 +6,7 @@ description: |
 source_book: 《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明
 source_chapter: 第十篇 仲裁（第41-42章）
 tags: [construction-arbitration, arbitration-clause, set-aside-award, arbitrator-selection, engineering-disputes]
-related_skills: [jianshe-hetong-quanshu, jianshe-shenpan-ZhouLiming-trial, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-special-issues, jianshe-shenpan-ZhouLiming-static-review]
+related_skills: [jianshe-hetong-quanshu, jianshe-shenpan-ZhouLiming-trial, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-special-issues, jianshe-shenpan-ZhouLiming-static-review, jianshe-guize-chonggou]
 source_author: 周利明（法官、英国皇家特许建造师 MCIOB）
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
 ---

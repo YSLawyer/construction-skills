@@ -4,11 +4,12 @@ name: jianshe-shenpan-ZhouLiming-static-review
 description: |
   何时调用：杨烁律师办理建设工程施工/分包/装饰装修等合同纠纷，需从合同本身判断「合同关系—内容—性质—效力」，或要在起诉前/庭审中做合同相对性、合同定性、效力攻防时调用。不适用：履约过程的证据审查、造价/质量/工期争议、鉴定应对、庭前与庭审策略（对应 dynamic-review、identification、trial）。
   触发信号（中文）：“合同关系”“合同相对性”“表见代理”“挂靠”“指定分包”“名为XX实为XX”“合同效力”“无效合同”“黑白合同”“资质”“转包”“违法分包”“支解发包”。
-  触发信号（英文）：“contract relationship”“privity”“apparent agency”“contract validity”“void contract”“subcontract”“affiliation”。
+  触发信号（英文）："contract relationship""privity""apparent agency""contract validity""void contract""subcontract""affiliation"。
+  分工：需引用具体裁判规则、典型案例或高院指导意见支撑论点时，配合 jianshe-guize-chonggou（邬砚《规则重构》裁判规则索引）。
 source_book: 《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明
 source_chapter: 第三篇 合同静态审查（第9-12章）
 tags: [construction-contract, static-review, contract-validity, contract-nature, litigation]
-related_skills: [jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-trial, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-special-issues, jianshe-hetong-quanshu]
+related_skills: [jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-trial, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-special-issues, jianshe-hetong-quanshu, jianshe-guize-chonggou]
 source_author: 周利明（法官、英国皇家特许建造师 MCIOB）
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
 ---

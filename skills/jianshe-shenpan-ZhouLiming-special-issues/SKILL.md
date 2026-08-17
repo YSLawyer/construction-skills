@@ -6,10 +6,11 @@ description: |
   不适用：合同效力与性质的静态审查、履行与造价的动态审查、司法鉴定程序应对。
   触发信号（中文）："优先受偿权""实际施工人""突破合同相对性""工程总承包""EPC""挂靠/转包/违法分包追责"。
   触发信号（英文）："construction payment priority""actual constructor""EPC/turnkey""disregard privity"。
+  分工：需引用具体裁判规则、典型案例或高院指导意见支撑论点时，配合 jianshe-guize-chonggou（邬砚《规则重构》裁判规则索引）。
 source_book: 《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明
 source_chapter: 第九篇 特殊、疑难案件审理思路（第35-40章）
 tags: [construction-priority, actual-constructor, EPC, privity, construction-dispute]
-related_skills: [jianshe-shenpan-ZhouLiming-static-review, jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-trial, jianshe-shenpan-ZhouLiming-arbitration, jianshe-hetong-quanshu]
+related_skills: [jianshe-shenpan-ZhouLiming-static-review, jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-trial, jianshe-shenpan-ZhouLiming-arbitration, jianshe-hetong-quanshu, jianshe-guize-chonggou]
 source_author: 周利明（法官、英国皇家特许建造师 MCIOB）
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
 ---

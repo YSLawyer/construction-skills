@@ -6,7 +6,7 @@ description: |
 source_book: 《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明
 source_chapter: 第七篇 司法鉴定（第28-29章）+ 第八篇 工程质量、工期审理路径（第30-34章）
 tags: [construction-appraisal, forensic-appraisal, construction-defect, construction-delay, expert-witness]
-related_skills: [jianshe-hetong-quanshu, jianshe-shenpan-ZhouLiming-static-review, jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-trial, jianshe-shenpan-ZhouLiming-special-issues, jianshe-shenpan-ZhouLiming-arbitration]
+related_skills: [jianshe-hetong-quanshu, jianshe-shenpan-ZhouLiming-static-review, jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-trial, jianshe-shenpan-ZhouLiming-special-issues, jianshe-shenpan-ZhouLiming-arbitration, jianshe-guize-chonggou]
 source_author: 周利明（法官、英国皇家特许建造师 MCIOB）
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
 ---

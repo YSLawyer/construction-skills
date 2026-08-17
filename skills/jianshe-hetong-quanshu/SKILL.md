@@ -1,10 +1,11 @@
 ---
 
 name: jianshe-hetong-quanshu
-description: "知识库：《中国建设工程施工合同法律全书——词条释义与实务指引（第二版）》by 常设中国建设工程法律论坛第八工作组（召集人周利明）。用于查询建设工程施工合同纠纷的词条释义、实务指引、黑白合同、合同效力、工程价款结算、优先受偿权、工期顺延索赔、工程质量保修等概念与裁判规则。起草建工类诉状/代理词/意见书、分析建工案件时调用。"
+description: "知识库：《中国建设工程施工合同法律全书——词条释义与实务指引（第二版）》by 常设中国建设工程法律论坛第八工作组（召集人周利明）。用于查询建设工程施工合同纠纷的词条释义、实务指引、黑白合同、合同效力、工程价款结算、优先受偿权、工期顺延索赔、工程质量保修等概念与裁判规则。起草建工类诉状/代理词/意见书、分析建工案件时调用。分工：与 jianshe-guize-chonggou（邬砚《规则重构》裁判规则索引）互补——查词条释义/概念用本技能，查具体裁判规则、典型案例、高院口径用邬砚。"
 source_book: 《中国建设工程施工合同法律全书——词条释义与实务指引（第二版）》
 source_author: 常设中国建设工程法律论坛第八工作组（召集人 周利明）
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
+related_skills: [jianshe-guize-chonggou, jianshe-shenpan-ZhouLiming-static-review, jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-trial, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-special-issues, jianshe-shenpan-ZhouLiming-arbitration]
 ---
 
 

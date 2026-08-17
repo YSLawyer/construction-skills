@@ -6,12 +6,14 @@ description: |
   不适用：签约阶段的合同效力/内容/性质审查（用 static-review）、庭审发问与举证质证技巧（用 trial）、造价/质量/工期司法鉴定的应对（用 identification）。
   触发信号（中文）："结算款怎么主张""竣工时间认定""发包人擅自使用""逾期答复视为认可结算""固定总价包不住怎么办""已付款抵扣""项目经理收款算不算已付"。
   触发信号（英文）："dynamic review""completion/acceptance""project cost settlement""paid and deductible""final account""deemed acceptance of settlement"。
+  分工：需引用具体裁判规则、典型案例或高院指导意见支撑论点时，配合 jianshe-guize-chonggou（邬砚《规则重构》裁判规则索引）。
 source_book: 《解构与重塑：建设工程合同纠纷审判思维与方法（第二版）》周利明
 source_chapter: 第四篇 合同动态审查（第13-17章）
 tags: [construction-dispute, contract-performance, project-cost, settlement, dynamic-review]
 related_skills:
   - jianshe-hetong-quanshu
   - jianshe-shenpan-ZhouLiming-static-review
+  - jianshe-guize-chonggou
   - jianshe-shenpan-ZhouLiming-trial
   - jianshe-shenpan-ZhouLiming-identification
   - jianshe-shenpan-ZhouLiming-special-issues
