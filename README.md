@@ -1,4 +1,4 @@
-# jianshe-legal-skills · 建工法律技能集（WorkBuddy）
+# Construction-legal-skills · 建工律师技能集
 
 > **当前版本：v1.1**（2026-08-17）——建工技能套件去冲突：邬砚技能明确「裁判规则检索索引」定位，8 技能双向 `related_skills` 互链与分工说明；各技能 frontmatter 标注 `version: 1.1`。
 
