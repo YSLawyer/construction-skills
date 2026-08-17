@@ -5,6 +5,7 @@ description: "知识库（裁判规则检索索引）：邬砚《规则重构：
 source_book: 《规则重构：建设工程施工合同纠纷裁判路径总梳理》
 source_author: 邬砚
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
+version: 1.1
 related_skills: [jianshe-hetong-quanshu, jianshe-shenpan-ZhouLiming-static-review, jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-trial, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-special-issues, jianshe-shenpan-ZhouLiming-arbitration]
 ---
 

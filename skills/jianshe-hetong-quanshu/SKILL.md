@@ -5,6 +5,7 @@ description: "知识库：《中国建设工程施工合同法律全书——词
 source_book: 《中国建设工程施工合同法律全书——词条释义与实务指引（第二版）》
 source_author: 常设中国建设工程法律论坛第八工作组（召集人 周利明）
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
+version: 1.1
 related_skills: [jianshe-guize-chonggou, jianshe-shenpan-ZhouLiming-static-review, jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-trial, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-special-issues, jianshe-shenpan-ZhouLiming-arbitration]
 ---
 

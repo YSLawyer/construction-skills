@@ -19,6 +19,7 @@ related_skills:
   - jianshe-shenpan-ZhouLiming-special-issues
 source_author: 周利明（法官、英国皇家特许建造师 MCIOB）
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
+version: 1.1
 ---
 
 

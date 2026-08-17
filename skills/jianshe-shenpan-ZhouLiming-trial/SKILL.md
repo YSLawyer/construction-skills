@@ -10,6 +10,7 @@ tags: [trial-procedure, pre-trial, judicial-clarification, on-site-inspection, c
 related_skills: [jianshe-shenpan-ZhouLiming-static-review, jianshe-shenpan-ZhouLiming-dynamic-review, jianshe-shenpan-ZhouLiming-identification, jianshe-shenpan-ZhouLiming-arbitration, jianshe-hetong-quanshu, jianshe-guize-chonggou]
 source_author: 周利明（法官、英国皇家特许建造师 MCIOB）
 license: CC BY-NC 4.0（禁止商用 / NonCommercial）
+version: 1.1
 ---
 
 
